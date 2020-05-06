@@ -1,0 +1,81 @@
+.container{
+  width:725px;
+  margin: 0 auto;
+       }
+header{
+  position:relative;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+img{
+  width:1300px;
+  margin:-8px 0 50px -280px;
+  }
+#first{
+  position:absolute;
+  left:-5px;
+  top:202px;
+  font: 40px 'Abril Fatface', cursive;
+  color:#222;
+ }
+#second{
+  position:absolute;
+  left:-5px;
+  top:212px;
+  font: 77px 'Abril Fatface', cursive;
+  color:#222;
+}
+header p{
+  font: 19px 'Josefin Sans', sans-serif;
+  line-height:1.5;
+    }
+.header ul{
+  list-style-type:square;
+  display:flex;
+  flex-direction:column;
+}
+.header li{
+  font: 19px 'Josefin Sans', sans-serif;
+  padding:5px;
+  }
+.main{
+  list-style-type:square;
+  font: 15.5px 'Josefin Sans', sans-serif;
+  line-height:1.5;
+  color:#222;
+}
+.achieve p1, .exp p1, .train p1{
+  font: bold 22px 'Josefin Sans', sans-serif;
+  color:#222;
+  line-height:1.5;
+}
+.achieve p3{
+  font: 15px 'Josefin Sans', sans-serif;
+  color:#222;
+  line-height:1.5;
+}
+.achieve h1, .exp h1, .train h1, .persint h1{
+  font: bold 32px 'Josefin Sans', sans-serif;
+  color:#222;
+  font-variant:small-caps;
+  }
+#together, #ifind, #wheni{
+  font:45px 'Abril Fatface', cursive;
+  color:white;
+  background:#414040;
+  padding:50px;
+  margin-bottom:20px;
+}
+#dolt2,#dolt3,#dolt4,#dolt5,#dolt6{
+  font:15px 'Merriweather', serif;
+}
+#together::before{
+  content:'"';
+     }
+#wheni::before{
+  content:'"';
+  }
+#ifind::before{
+  content:'"';
+}
